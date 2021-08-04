@@ -38,8 +38,7 @@ test.csv - unknown data for the Kaggle competition, not used
 my <code>class RNN(nn.Module)</code> - Many to One Architecture RNN, taking in sequence of data and returning single output </br>
 
 <b>input:</b> fixed length time sequence of time steps (t-sequence_length,t-1) </br>
-<b>output:</b> one data point for time step (t)
-the data point (t) is then appended to the sequence used for computation of time step (t+1) in <code>RNN.predict()</code>
+<b>output:</b> one data point for time step (t) </br>
 
 #### Predict Method
 
