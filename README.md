@@ -35,7 +35,7 @@ test.csv - unknown data for the Kaggle competition, not used
 
 #### Many to One Architecture RNN
 
-<code>RNN</code> - Many to One Architecture RNN, taking in sequence of data and returning single output </br>
+my <code>class RNN(nn.Module)</code> - Many to One Architecture RNN, taking in sequence of data and returning single output </br>
 
 <b>input:</b> fixed length time sequence of time steps (t-sequence_length,t-1) </br>
 <b>output:</b> one data point for time step (t)
