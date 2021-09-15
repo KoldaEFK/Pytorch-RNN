@@ -34,7 +34,7 @@ class RNN(nn.Module):
         with torch.no_grad():
             self.eval() #setting the model to evaluation mode and turning off the gradient computation
 
-            if len(known_sequence)<len(self.sequence_length):
+            if len(known_sequence)<self.sequence_length:
                 return "known_sequence must be longer than sequence length"
             
             known_sequence = known_sequence.to(device)
